@@ -1,0 +1,153 @@
+.header{
+    background: $white;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:27px 0px;
+    }
+
+    &__title{
+        font-size: 25px;
+        line-height: 1.2;
+    }
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__tel{
+        color:$orange;
+        text-decoration: none;
+        margin-bottom: 3px;
+        font-size: 22px;
+        font-weight: 500;
+        position: relative;
+        span{
+            color: #333;
+            margin-right: 5px;
+        }
+        &::before{
+            content:'';
+            background: url('../assets/img/header/phone.svg') no-repeat center center;
+            background-size: cover;
+            top:5px;
+            left:-25px;
+            width: 18px;
+            height: 18px;
+            position: absolute;
+        }
+    }
+    &__contact-btn{
+        border-bottom: 1px dotted #333;
+        font-size:18px;
+        text-decoration: none;
+        color:#333;
+        position: relative;
+        margin-right: 14px;
+        &::before{
+            content: '';
+            position: absolute;
+            right: -13px;
+            top: 10px;
+            border: 5px solid transparent;
+            border-top: 5px solid #333;
+        }
+    }
+
+
+    &__bottom{
+        border-top: 1px solid #e6e6e6;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding:5px 0px;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        li{
+            padding:5px 0px;
+            &:first-child{
+                margin-left:-15px;
+            }
+            a{
+                padding:15px 20px 15px 20px;
+                text-decoration: none;
+                color: #333;
+                position: relative;
+                transition: .3s all;
+                &:hover{
+                    color:$orange;
+                }
+                &::before{
+                    content: '';
+                    position: absolute;
+                    height: 20px;
+                    width: 1px;
+                    right: 0;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    opacity: .1;
+                    background-color: #333;
+                }
+            }
+        }
+    }
+    &__dropdown-btn{
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        content: '';
+        width: 12px;
+        height: 12px;
+        background: url('../assets/img/header/arrow-down.svg') center center no-repeat;
+        background-size: cover;
+    }
+
+    &__search{
+        display: flex;
+        position: relative;
+        
+        .search{
+            outline:none;
+            &:focus{
+                border-color: $orange;
+            }
+            border: 1px solid #e6e6e6;
+            color: #000;
+            border-radius: 3px;
+            -webkit-transition: all .3s;
+            font-size: 14px;
+            padding: 5px 30px 7px 10px;
+            transition: all .3s;
+        }
+        .search-btn{
+            
+            background: none;
+            position: absolute;
+            top:5px;
+            right: 10px;
+            cursor: pointer;
+            outline: none;  
+            border: none;
+            border-left: none;
+            background: $white;
+            width: 20px;
+            height: 20px;
+            img{
+            
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+}
