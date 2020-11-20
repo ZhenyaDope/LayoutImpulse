@@ -472,4 +472,64 @@ body {
 .qualification__group img:last-child {
   margin-bottom: 0px;
 }
+
+.advantages {
+  padding: 75px 0 25px;
+  background: url("../assets/img/advantages/bg1.png") no-repeat top left, url("../assets/img/advantages/bg2.png") no-repeat bottom right;
+  background-color: #d6edfa;
+}
+
+.advantages__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantages__title {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advantages__img {
+  margin-right: 20px;
+}
+
+.advantages__text h4 {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.advantages__text p {
+  font-weight: 300;
+  line-height: 22px;
+  color: #555;
+}
+
+.advantages__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 48%;
+  margin-bottom: 50px;
+}
 /*# sourceMappingURL=style.css.map */
