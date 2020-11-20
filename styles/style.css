@@ -405,4 +405,71 @@ body {
 .intro__item p {
   color: #fff;
 }
+
+.qualification {
+  background: url("../assets/img/qualification/bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 75px 0;
+}
+
+.qualification__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qualification__title {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.qualification__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.qualification__items img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.qualification__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+}
+
+.qualification__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+}
+
+.qualification__group img {
+  margin-bottom: 20px;
+}
+
+.qualification__group img:last-child {
+  margin-bottom: 0px;
+}
 /*# sourceMappingURL=style.css.map */
