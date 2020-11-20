@@ -4,9 +4,44 @@ $white: #fff;
 $orange: #f48625;
 
 
-.wrapper{
+.container{
     max-width: 966px;
     padding-left: 30px;
     padding-right: 30px;
     margin: 0 auto;
 }
+
+
+
+.order-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .order-form__input{
+        width: 270px;
+        height: 40px;
+        padding-left: 20px;
+        padding-right: 40px;
+        border: 1px solid #e6e6e6;
+        color: #000;
+        border-radius: 3px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        outline: none;
+    }
+
+    .order-form__btn{
+        display: inline-block;
+        text-align: center;
+        border: 2px solid transparent;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        background-color: #f48625;
+        border-radius: 3px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+}
+
