@@ -17,7 +17,7 @@ $orange: #f48625;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .order-form__input{
+    input{
         width: 270px;
         height: 40px;
         padding-left: 20px;
@@ -30,7 +30,9 @@ $orange: #f48625;
         outline: none;
     }
 
-    .order-form__btn{
+    button{
+        outline: none;
+        cursor: pointer;
         display: inline-block;
         text-align: center;
         border: 2px solid transparent;

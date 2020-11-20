@@ -30,7 +30,7 @@ body {
           justify-content: space-between;
 }
 
-.order-form .order-form__input {
+.order-form input {
   width: 270px;
   height: 40px;
   padding-left: 20px;
@@ -43,7 +43,9 @@ body {
   outline: none;
 }
 
-.order-form .order-form__btn {
+.order-form button {
+  outline: none;
+  cursor: pointer;
   display: inline-block;
   text-align: center;
   border: 2px solid transparent;
@@ -697,5 +699,67 @@ body {
 
 .work__text p {
   line-height: 22px;
+}
+
+.promo {
+  padding: 75px 0;
+  background: url("../assets/img/promo/bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.promo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promo__title {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.promo__subtitle {
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.promo .input-wrapper {
+  position: relative;
+  margin-right: 30px;
+}
+
+.promo .input-wrapper input {
+  outline: none;
+}
+
+.promo .input-wrapper input:focus {
+  border-color: #f48625;
+}
+
+.promo .input-wrapper::before {
+  content: '';
+  position: absolute;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: url("../assets/img/intro/phone.svg") no-repeat center/cover;
+}
+
+.promo__form-btn {
+  padding: 9px 42px;
 }
 /*# sourceMappingURL=style.css.map */
