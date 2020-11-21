@@ -859,4 +859,149 @@ body {
 .features__item p {
   line-height: 22px;
 }
+
+.cta {
+  background: url("../assets/img/cta/bg1.png") no-repeat left top, url("../assets/img/cta/bg2.png") no-repeat right bottom;
+  background-color: #d6edfa;
+  padding: 75px 0;
+}
+
+.cta__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cta__title {
+  margin-bottom: 15px;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.cta__subtitle {
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.cta__subtitle-2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+
+.cta-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cta-form .input-wrap {
+  margin: 10px 15px;
+}
+
+.cta-form .input-wrap input {
+  width: 420px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+  outline: none;
+}
+
+.cta-form button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 420px;
+  height: 40px;
+  margin: 10px 15px;
+  background-color: #f48625;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.cta-form button:hover {
+  color: #333;
+}
+
+.cta-form .input-tel {
+  position: relative;
+}
+
+.cta-form .input-tel::before {
+  content: '';
+  background: url("../assets/img/cta/phone.svg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.cta-form .input-mail {
+  position: relative;
+}
+
+.cta-form .input-mail::before {
+  content: '';
+  background: url("../assets/img/cta/mail.svg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.cta-form .input-site {
+  position: relative;
+}
+
+.cta-form .input-site::before {
+  content: '';
+  background: url("../assets/img/cta/web.svg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 /*# sourceMappingURL=style.css.map */
