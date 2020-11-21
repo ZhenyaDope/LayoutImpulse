@@ -798,4 +798,65 @@ body {
 .tasks__item:last-child {
   margin-bottom: 0px;
 }
+
+.features {
+  background: url("../assets/img/features/bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 75px 0;
+}
+
+.features__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features__title {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.features__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -30px -15px;
+}
+
+.features__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 30px 15px;
+}
+
+.features__item h4 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.features__item p {
+  line-height: 22px;
+}
 /*# sourceMappingURL=style.css.map */
