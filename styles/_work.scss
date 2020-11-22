@@ -54,3 +54,49 @@
         }
     }
 }
+
+
+
+@media screen and (max-width:769px){
+    .work{
+        &__list{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            flex-direction: column;
+            align-items: center;
+            margin-right: 0;
+            margin-bottom: 20px;
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+        &__img{
+            width:60px;
+            margin-right: 0;
+        }
+        &__text{
+            h4,p{
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:577px){
+    .work{
+        padding:40px 0;
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size:18px;
+        }
+    }
+}

@@ -110,3 +110,61 @@
         }
     }
 }
+
+
+@media screen and (max-width:950px){
+    .cta{
+        &__form-wrapper{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+    }
+
+
+
+    .cta-form{
+        max-width: 450px;
+    }
+}
+
+
+
+
+@media screen and (max-width:577px){
+    .cta{
+        padding:40px 0;
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size:18px;
+        }
+        &__subtitle-2{
+            font-size:18px;
+        }
+    }
+}
+
+
+@media screen and (max-width:472px){
+    .cta-form{
+        max-width: 230px;
+        .input-wrap{
+            max-width: 230px;
+            margin: 0;
+
+            input{
+                margin-bottom: 10px;
+                max-width: 230px;
+            }
+        }
+        button{
+            margin: 0;
+            width: 230px;
+        }
+    }
+}

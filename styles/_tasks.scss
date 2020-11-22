@@ -21,3 +21,36 @@
         }
     }
 }
+
+
+@media screen and (max-width:952px){
+    .tasks{
+        background-image: none;
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+
+@media screen and (max-width:577px){
+    .tasks{
+        padding:40px 0;
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size:18px;
+        }
+        &__list{
+            max-width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+        &__item{
+           
+        }
+    }
+}

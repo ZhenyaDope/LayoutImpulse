@@ -38,3 +38,45 @@
         }
     }
 }
+
+
+
+
+
+@media screen and (max-width:991px){
+    .qualification{
+        &__items{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__first{
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        
+    }
+}
+
+
+
+@media screen and (max-width:577px){
+    .qualification{
+        &__items{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__first{
+            flex-direction: column;
+            img{
+                margin-bottom: 20px;
+            }
+        }
+        &__group{
+            margin-left: 0px;
+        }
+        &__second{
+            max-width: 70%;
+        }
+        
+    }
+}

@@ -46,3 +46,34 @@
         padding:9px 42px;
     }
 }
+
+
+
+@media screen and (max-width:769px){
+    .promo{
+        .order-form{
+            flex-direction: column;
+            .input-wrapper{
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            button{
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:577px){
+    .promo{
+        padding:40px 0;
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size:18px;
+        }
+    }
+}

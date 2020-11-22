@@ -35,3 +35,37 @@
         }
     }
 }
+
+@media screen and (max-width:952px){
+    .features{
+        &__list{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            align-items: center;
+            h4,p{
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width:577px){
+    .features{
+        padding:40px 0;
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size:18px;
+        }
+        &__item{
+            width: 90%;
+        }
+    }
+}

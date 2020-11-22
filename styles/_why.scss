@@ -59,3 +59,39 @@
         }
     }
 }
+
+
+
+
+
+@media screen and (max-width: 769px){
+    .why{
+        &__item{
+            padding:15px 15px 20px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width:90%;
+        }
+        &__text{
+            h4,p{
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:577px){
+    .why{
+        padding:40px 0;
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size:18px;
+        }
+    }
+}

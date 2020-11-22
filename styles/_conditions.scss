@@ -46,3 +46,34 @@
         }
     }
 }
+
+
+
+
+@media screen and (max-width:991px){
+    .conditions{
+        .second{
+            flex-direction: column-reverse!important;
+        }
+        &__item{
+            flex-direction: column;
+            
+        }
+        &__text-wrap{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+@media screen and (max-width:472px){
+    .conditions{
+        
+        &__wrapper{
+            padding:20px;
+        }
+        &__text-wrap, &__img-wrap{
+            width: 320px!important;
+        }
+    }
+}

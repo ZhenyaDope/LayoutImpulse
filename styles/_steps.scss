@@ -114,3 +114,32 @@
         background-size: cover;
     }
 }
+
+
+
+@media screen and (max-width:950px){
+    .steps{
+        &__list{
+            justify-content: space-around;
+        }
+        &__item{
+            &::before{
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:577px){
+    .steps{
+        padding:40px 0;
+        &__title{
+            font-size: 25px;
+        }
+        &__subtitle{
+            font-size:18px;
+        }
+
+    }
+}

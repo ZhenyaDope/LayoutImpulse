@@ -14,10 +14,15 @@
     
     <!-- BEGIN HEADER -->
     <header class="header">
+        <div class="header__mobile-menu">
+            <a href="#"><img src="./assets/img/header-mobile/menu.svg" alt="Меню"></a>
+            <a href="#"><img src="./assets/img/header-mobile/search.svg" alt="Поиск"></a>
+            <a href="#"><img src="./assets/img/header-mobile/phone.svg" alt="Звонок"></a>
+        </div>
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__top">
-                    <a class="header__logo" href="/"><img src="./assets/img/header/logo.png" alt="Логотип"></a>
+                    <a class="header__logo" href="/"><img class="header__desktop-logo" src="./assets/img/header/logo.png" alt="Логотип"><img class="header__mobile-logo" src="./assets/img/header-mobile/mobile-logo.png" alt="Логотип"></a>
                     <p class="header__title">Эффективная контекстная реклама</p>
                     <div class="header__contacts">
                         <a class="header__tel" href="tel:+8123203388"><span>(812)</span>320-33-88</a>
@@ -37,6 +42,7 @@
                         <input placeholder="Поиск" class="search" type="text">
                         <button class="search-btn" type="submit" ><img src="./assets/img/header/search.svg" alt="Искать"></button>
                     </form>
+                    <button class="header__btn--mobile"><img src="./assets/img/header/search.svg" alt="Искать"></button>
                 </div>
             </div>
         </div>
@@ -361,7 +367,7 @@
     <section class="conditions">
         <div class="container">
             <div class="conditions__wrapper">
-                <div class="conditions__item">
+                <div class="conditions__item first">
                     <div class="conditions__text-wrap">
                         <h4>Условия сотрудничества:</h4>
                         <ul class="conditions__list">
@@ -380,7 +386,7 @@
                         <img src="./assets/img/conditions/1.jpg" alt="Условия">
                     </div>
                 </div>
-                <div class="conditions__item">
+                <div class="conditions__item second">
                     <div class="conditions__img-wrap">
                         <img src="./assets/img/conditions/2.jpg" alt="Условия">
                     </div>
@@ -474,7 +480,7 @@
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__contacts">
-                    <p>Пишите на <a href="mailto:info@impulses.ru">info@impulses.ru</a> , звоните по телефону <a href="tel:+8123203388">(812) 320-333-88</a></p>
+                    <p>Пишите на <a href="mailto:info@impulses.ru">info@impulses.ru</a> , звоните по телефону&nbsp;<a href="tel:+8123203388">(812)&nbsp;320-333-88</a></p>
                     <p>ООО "Импульс" ИНН 7826116682 <a href="#">Реквизиты</a></p>
                 </div>
                 <div class="footer__policy">

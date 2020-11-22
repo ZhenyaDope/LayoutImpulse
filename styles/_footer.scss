@@ -33,3 +33,29 @@
         }
     }
 }
+
+@media screen and (max-width:952px){
+    .footer{
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__contacts{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+@media screen and (max-width:577px){
+    .footer{
+        &__contacts{
+            p{
+                text-align: center;
+            }
+        }
+    }
+}
