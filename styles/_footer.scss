@@ -1,0 +1,35 @@
+.footer{
+    background: #434f5d;
+    padding:25px 0;
+    color:#fff;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__contacts{
+        p{
+            margin-bottom: 10px;
+            a{
+                transition: .3s;
+                color:$orange;
+                &:hover{
+                    color:#fff;
+                }
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+            
+        }
+    }
+    &__policy{
+        a{
+            color:#fff;
+            transition: .3s;
+            &:hover{
+                color:$orange;
+            }
+        }
+    }
+}
